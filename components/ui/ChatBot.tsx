@@ -142,7 +142,7 @@ const ChatBot = () => {
       {isOpen && (
         <div className="flex flex-col w-80 h-96 bg-white dark:bg-gray-900 shadow-xl rounded-2xl border overflow-hidden">
           <div className="flex justify-between items-center bg-blue-600 text-white p-3">
-            <span>Ask Tushar's AI 🤖</span>
+            <span>Ask Tushar&apos;s AI 🤖</span>
             <button onClick={() => setIsOpen(false)}>✕</button>
           </div>
 

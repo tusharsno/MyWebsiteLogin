@@ -47,7 +47,7 @@ const About_Me = () => {
           >
             <h2 className="text-2xl font-bold dark:text-blue-400 text-blue-700">My Journey</h2>
             <p className="dark:text-gray-300 text-gray-700 leading-relaxed">
-              With over 5 years of experience in web development, I've had the privilege of working with startups and established companies to create digital solutions that make a difference.
+              With over 5 years of experience in web development, I&apos;ve had the privilege of working with startups and established companies to create digital solutions that make a difference.
             </p>
             <p className="dark:text-gray-300 text-gray-700 leading-relaxed">
               I believe in writing clean, maintainable code and creating user experiences that are both beautiful and functional. My approach combines technical expertise with creative problem-solving.
