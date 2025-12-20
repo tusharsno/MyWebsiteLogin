@@ -7,12 +7,20 @@ const Projects_Demo = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and MongoDB.",
-      tech: ["React", "Node.js", "MongoDB"],
-      icon: "🛒",
-      liveLink: "https://your-ecommerce-demo.netlify.app",
-      codeLink: "https://github.com/tusharsno/ecommerce-platform"
+      title: "HeartScan Pro",
+      description: "An AI-powered full-stack web application developed as an academic project for the AI course (6th semester, USTC). The system predicts heart disease risk using a trained machine learning model, incorporating data preprocessing, model evaluation, and real-time server-side inference through a modern web interface.",
+      tech: [
+        "Next.js",
+        "Tailwind CSS",
+        "Next.js API Routes (Serverless Backend)",
+        "Python",
+        "Scikit-learn",
+        "Random Forest Classifier",
+        "Machine Learning"
+      ],
+      icon: "❤️",
+      liveLink: "https://heart-scan-three.vercel.app",
+      codeLink: "https://github.com/tusharsno/HeartScan"
     },
     {
       id: 2,
