@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { Terminal, Code2, Zap } from "lucide-react";
 
 const Projects_Demo = () => {
   const projects = [
@@ -24,10 +25,15 @@ const Projects_Demo = () => {
     },
     {
       id: 2,
-      title: "DSA Platform",
-      description: "A productivity app built with React Native and Firebase.",
-      tech: ["React Native", "Firebase", "Redux"],
-      icon: "✅",
+      title: "CodeQuest",
+      description: "Engineered a high-performance, full-stack learning platform designed to streamline Data Structures and Algorithms mastery. The system implements a modular architecture with complex state management for real-time problem tracking. Featuring an automated roadmap engine and a highly responsive dashboard, the platform optimizes student workflow by providing data-driven insights. Built with a focus on scalability, Type-safety, and seamless UX/UI, ensuring an elite-level technical preparation environment.",
+      tech: ["Next.js (App Router)", "TypeScript", "Tailwind CSS", "Shadcn UI", "Clerk (Identity & Access Management)", "Next.js Server Actions", "PostgreSQL", "Prisma ORM", "Zod (Validation)", "Framer Motion (Micro-interactions)", "Lucide Icons"],
+      // icon: "✅",
+      icon: (
+       <div className="p-2 bg-cyan-500/10 rounded-lg border border-cyan-500/20 w-fit">
+          <Terminal className="w-6 h-6 text-cyan-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.8)]" />
+        </div>
+      ),
       liveLink: "https://dsaplatform.vercel.app",
       codeLink: "https://github.com/tusharsno/dsa-platform"
     },
@@ -167,7 +173,7 @@ const Projects_Demo = () => {
                   rel="noopener noreferrer"
                 >
                   <motion.span whileHover={{ rotate: 15 }} transition={{ duration: 0.3 }}>🔗</motion.span>
-                  Live
+                  Live Demo 
                 </motion.a>
                 <motion.a
                   whileHover={{ scale: 1.05 }}
