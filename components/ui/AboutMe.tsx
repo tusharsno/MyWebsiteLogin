@@ -2,8 +2,6 @@
 
 import React from 'react'
 import Image from "next/image";
-// import { Meteors } from "@/components/ui/meteors";
-// import { section } from 'motion/react-client';
 
 const AboutMe = () => {
   return (
@@ -11,22 +9,6 @@ const AboutMe = () => {
       <div className="mt-20 mb-10">
       <div className="relative w-full flex items-center justify-center">
         <div className="relative flex h-100 w-full flex-col items-start justify-end overflow-hidden rounded-2xl bg-neutral-300 dark:bg-neutral-950 px-4 py-8 m-20">
-          {/* <div className="mb-4 flex h-5 w-5 items-center justify-center rounded-full border border-gray-950 dark:border-gray-500">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="currentColor"
-              className="h-2 w-2 text-gray-950 dark:text-gray-300"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25"
-              />
-            </svg>
-          </div> */}
  
         <div className='flex flex-col md:flex-row w-full h-100 bg-neutral-300 dark:bg-neutral-950 mt-10 rounded-lg'>
 
@@ -59,9 +41,7 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
- 
-          {/* Meaty part - Meteor effect */}
-          {/* <Meteors number={20} /> */}
+
         </div>
       </div>
     </div>

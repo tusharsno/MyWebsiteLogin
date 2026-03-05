@@ -24,12 +24,12 @@ const Projects_Demo = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "DSA Platform",
       description: "A productivity app built with React Native and Firebase.",
       tech: ["React Native", "Firebase", "Redux"],
       icon: "✅",
-      liveLink: "https://your-taskapp-demo.netlify.app",
-      codeLink: "https://github.com/tusharsno/task-management-app"
+      liveLink: "https://dsaplatform.vercel.app",
+      codeLink: "https://github.com/tusharsno/dsa-platform"
     },
     {
       id: 3,
